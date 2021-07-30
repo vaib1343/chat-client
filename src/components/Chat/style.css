@@ -1,0 +1,6 @@
+.chat-box {
+  margin-inline: auto;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
