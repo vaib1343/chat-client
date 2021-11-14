@@ -6,14 +6,14 @@ import { BrowserRouter } from "react-router-dom";
 import axios from "axios";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-axios.defaults.baseURL = "http://localhost:4000/";
+axios.defaults.baseURL = " https://chatserver1343.herokuapp.com/";
 toast.configure();
 
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById("root")
+    <React.StrictMode>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </React.StrictMode>,
+    document.getElementById("root")
 );
