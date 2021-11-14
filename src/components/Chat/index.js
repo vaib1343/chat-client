@@ -40,7 +40,7 @@ const Chat = () => {
     const [chatMessages, setChatMessages] = useState([]);
 
     useEffect(() => {
-        var HOST = " ws://chatserver1343.herokuapp.com";
+        var HOST = " wss://chatserver1343.herokuapp.com";
         const ws = new WebSocket(HOST + "/" + localStorage.getItem("token"));
         setwsRef(ws);
 
